@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*:focus {outline:0;}
+
+*{
+    font-family: 'Open Sans', sans-serif; 
+    color: #7D7A93;
+    text-align: left;
+    text-align:center;
+    /*cursor:url("cursor.gif"),default;*/
+}
+h1,h2,h3,h4,h5,h6{
+    text-align:center;
+    color:#BD9FFF;
+}
+*.special{color:#A9FFEB}
+
+a{color:#88CFEB;}
+a:visited{color:#88CFEB;}
+a:active{color:#7D7A93;}
+
+button,input[type="button"],input[type="submit"],input[type="file"],input[type="reset"]{
+    border-radius:3px;
+    border:2px solid rgb(50,100,255);
+    background-color:rgb(100,200,255);
+    font-size:18px;
+}
+button:active,input[type="button"]:active,input[type="submit"]:active,input[type="file"]:active,input[type="reset"]:active{
+    background-color:rgb(50,100,255);
+    color:white;
+}
+
+::-webkit-scrollbar{
+    width:7px;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(150,150,150);
+    border-radius:3px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:rgba(130,130,130);
+}
+
+::selection{
+    background-color:rgb(200,200,200,0.5);
+}
+
+input[type="color"].input[type="date"],input[type="datetime-local"],input[type="date"],input[type="email"],input[type="month"],input[type="number"],input[type="password"],
+input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],input[type="week"]{
+    background-color:rgb(240,240,240);
+    border:2px solid black;
+}
